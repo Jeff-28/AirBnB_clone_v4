@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .filters {
     background-color: white;
     height: 70px;
@@ -36,13 +38,13 @@ section.filters > button:hover {
 }
 .locations > h3, .amenities > h3 {
     font-weight: 600;
-    margin: 12px 0 5px 0;
+    margin: 12px 0 5px 40px;
 }
 
 .locations > h4, .amenities > h4 {
     font-weight: 400;
     font-size: 14px;
-    margin: 0 0 5px 0;
+    margin: 7px 0 5px 40px;
 }
 
 .popover {
@@ -82,7 +84,7 @@ section.filters > button:hover {
     padding-left: 20px;
 }
 .locations > .popover > li > ul > li {
-    margin-bottom: 10px;
+    margin: 5px 0 5px 0;
 }
 
 .amenities > .popover > li {
